@@ -53,6 +53,7 @@ output{
     margin-bottom: 2rem;
 }
 footer{
+    margin-top: 90px;
     height: 80px;
     background-color: rgb(165, 55, 55);
     padding-top: 2rem;
