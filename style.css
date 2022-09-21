@@ -1,23 +1,46 @@
-body{
-    margin: 0px;
-    background-image: url('https://i.gifer.com/embedded/download/1ZP9.gif');
-    background-size: cover;
-    
-    padding:0;
-    margin:0;
+body {
+    background-color: rgb(136, 207, 223);
 }
-button{
-    display: block;
-    background-color: rgb(135, 216, 222);
-    margin: auto;
-    padding: 0.9rem;
-    border-radius: 3rem;
-    margin-top: 16.5rem;
+
+img {
+    bottom: 0;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.7);
     cursor: pointer;
 }
-a{
-    text-align: center;
-    text-decoration: none;
-    color: rgb(36, 8, 63);
-    font-weight: bold;
+
+div {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+@media only screen and (max-width: 970px) {
+    img {
+        height: 60vh;
+    }
+
+    div {
+        top: 15%;
+        left: 5%;
+    } 
+}
+
+@media only screen and (max-width: 570px) {
+    img {
+        height: 40vh;
+    }
 }

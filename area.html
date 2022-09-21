@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun With Triangles</title>
     <link rel="shortcut icon" type="image/css" href="/images/right-triangle.png" />
+    <link rel="stylesheet" type="text/css" href="/base.css" />
     <link rel="stylesheet" type="text/css" href="/stylearea.css" />
 </head>
+
 <body>
     <nav>
         <div>
-        <a href="/istriangle.html" class="active">isTriangle?</a>
-        <a href="/quiz.html" class="active">Quiz</a>
-        <a href="/hypotenuse.html" class="active">Hypotenuse</a>
-        <a href="/area.html" class="active-link">Area</a>
-    </div>
+            <a href="/istriangle.html" class="active">isTriangle?</a>
+            <a href="/quiz.html" class="active">Quiz</a>
+            <a href="/hypotenuse.html" class="active">Hypotenuse</a>
+            <a href="/area.html" class="active-link">Area</a>
+        </div>
     </nav>
     <div class="outside-container">
         <div class="color-container">
-    <h1 class="area-heading">Calculate Area</h1>
-    <div>
-        <p>Area of triangle:</p>
-        <p> A = 1/2 (base * height)</p>
+            <h1 class="area-heading">Calculate Area</h1>
+            <div>
+                <p>Area of triangle:</p>
+                <p> A = 1/2 (base * height)</p>
+            </div>
+            <label>Base(in cm): <input type="number" class="length-cm" placeholder="base"></label>
+            <label>Height(in cm): <input type="number" class="length-cm" placeholder="height"></label>
+            <button class="area-button">Area?</button>
+        </div>
     </div>
-    <label>Base(in cm): <input type="number" class="length-cm" placeholder="base"></label>
-    <label>Height(in cm): <input type="number" class="length-cm" placeholder="height"></label>
-    <button class="area-button">Area?</button>
-</div>
-</div>
     <output class="area-output"></output>
     <footer>
         <p>Made By 🤍 Namrata Jain © Copyright</p>
     </footer>
     <script src="/area.js"></script>
 </body>
+
 </html>

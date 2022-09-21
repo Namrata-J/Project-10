@@ -1,66 +1,30 @@
-body{
-    margin: 0px;
+.quiz-heading {
+    font-size: 1.5rem;
+    padding-top: 2rem;
 }
-nav div{
-    height:120px;
-    background-color: rgb(170, 70, 70);
-    border-bottom-left-radius: 1rem;
-}
-nav a{
-    color: burlywood;
-    display: inline-block;
-    margin: 1rem;
-    padding: 0.4rem;
-    text-decoration: none;
-}
-.active-link{
-    background-color: rgb(41, 38, 34);
-    border-radius: 0.5rem;
-    box-shadow: 0px 0px 6px;
-}
-.quiz-heading{
-    text-align: center;
-    color: rgb(167, 63, 63);
-    text-shadow: 0px 0px 6px rgb(247, 244, 244);
-}
+
 .triangle-quiz{
     text-align: center;
     margin: 1rem;
 }
+
 button{
     display: block;
-    margin: auto;
-    margin-top: 1.5rem;
-    padding: 0.3rem 0.7rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
 }
-.refresh-form-button:hover{
-    background-color: brown;
+
+.quiz-output {
+    margin-top: 2rem;
 }
-button:hover{
-    background-color: brown;
+
+.quiz-container {
+    padding: 1rem 0.5rem;
 }
-output{
-    display: block;
-    text-align: center;
-    margin-top: 3rem;
-    color: brown;
-    font-family: sans-serif;
+
+.quiz-container p {
     font-weight: bold;
-    font-size: 0.9rem;
-    text-shadow: 0px 0px 5px;
-    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
-footer{
-    margin-top: 90px;
-    height: 80px;
-    background-color: rgb(165, 55, 55);
-    padding-top: 2rem;
-    border-top-right-radius: 1rem;
-}
-footer p {
-    color: burlywood;
-    font-size: 0.9rem;
-    text-align: center;
+
+label {
+    padding-right: 0.5rem;
 }

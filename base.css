@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, button, div, a, h1, input, label, output {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav, footer {
+    background-color: rgb(136, 207, 223);
+    font-size: 0.9rem;
+}
+
+nav {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+nav div {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    min-height: 12vh;
+    padding: 0.5rem 2rem;
+}
+
+nav a {
+    padding: 0.4rem 0.7rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+nav a:hover,
+.active-link {
+    border-radius: 0.3rem;
+}
+
+.active-link {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.color-container {
+    background: rgba(136, 207, 223, 0.2);
+    border-radius: 0.3rem;
+    width: 60%;
+    padding: 2rem 1rem;
+}
+
+.outside-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.3rem auto;
+    outline: none;
+    padding: 0.3rem;
+}
+
+label {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+footer {
+    bottom: 0;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+label,
+input,
+button,
+footer {
+    text-align: center;
+}
+
+.outside-container label,
+.outside-container input,
+.outside-container button {
+    display: block;
+}
+
+button {
+    background-color: rgb(136, 207, 223);
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem 0.7rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.output,
+.quiz-output,
+.hypotenuse-output,
+.area-output {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 570px) {
+    .color-container {
+        width: 80%;
+    }
+}
